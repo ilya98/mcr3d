@@ -1,0 +1,48 @@
+<CoordinateSystem> { Z-up }
+
+<Comment> { "Egg laid by Chicken for Blender vR44" }
+
+<Texture> t_north.png {
+  "daylight.png"
+  <Scalar> wrap    { CLAMP }
+  <Scalar> magfilter { BILINEAR }
+  <Scalar> uv-name { UVTex }
+  <Scalar> envtype { modulate }
+}
+<Texture> t_south.png {
+  "daylight.png"
+  <Scalar> wrap    { CLAMP }
+  <Scalar> magfilter { BILINEAR }
+  <Scalar> uv-name { UVTex }
+  <Scalar> envtype { modulate }
+}
+<Texture> t_up.png {
+  "daylight.png"
+  <Scalar> wrap    { CLAMP }
+  <Scalar> magfilter { BILINEAR }
+  <Scalar> uv-name { UVTex }
+  <Scalar> envtype { modulate }
+}
+<Texture> t_east.png {
+  "daylight.png"
+  <Scalar> wrap    { CLAMP }
+  <Scalar> magfilter { BILINEAR }
+  <Scalar> uv-name { UVTex }
+  <Scalar> envtype { modulate }
+}
+<Texture> t_west.png {
+  "daylight.png"
+  <Scalar> wrap    { CLAMP }
+  <Scalar> magfilter { BILINEAR }
+  <Scalar> uv-name { UVTex }
+  <Scalar> envtype { modulate }
+}
+<Texture> down.png {
+  "daylight.png"
+  <Scalar> wrap    { CLAMP }
+  <Scalar> magfilter { BILINEAR }
+  <Scalar> uv-name { UVTex }
+  <Scalar> envtype { modulate }
+}
+<Group> Cube {
+  <VertexPool> Cube {
