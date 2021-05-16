@@ -2,7 +2,7 @@ from panda3d.core import Texture, TextureStage
 from panda3d.core import BitMask32
 from panda3d.core import TransparencyAttrib
 
-
+#hello
 # Класс элемента строительного блока
 class Block():
     # свойство класса - текущий индекс объекта

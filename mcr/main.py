@@ -1,3 +1,5 @@
+#welcome to the project mcr3d
+
 from direct.showbase.ShowBase import ShowBase
 from direct.gui.OnscreenText import OnscreenText
 from direct.gui.OnscreenImage import OnscreenImage
