@@ -102,10 +102,11 @@ class MapManager():
         # удаляем все блоки
         self.clearAll()
 
-        for i in range(-7,8):
-            for j in range(-7,8):
-                pos = (i, j, -2)
-                self.addBlock(pos, (1,1,1,1))
+        for i in range(-10,10):
+            for j in range(-10,10):
+                for m in range (1,6):
+                    pos = (i, j, m)
+                    self.addBlock(pos, (1,1,1,1))
 
     # Метод генерации новой случайной карты
     def generateRandomMap(self):
